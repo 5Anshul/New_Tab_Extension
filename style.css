@@ -1,0 +1,94 @@
+.high {
+  font-weight: bold;
+}
+.bode {
+  border: 3px solid black;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+.but {
+  text-align: left;
+}
+.top {
+  text-align: center;
+  font-size: 10px;
+}
+.head {
+  text-align: center;
+  font-size: medium;
+}
+.hidden {
+  visibility: hidden;
+}
+.heading {
+  color: black;
+  background-color: yellowgreen;
+  text-align: center;
+  text-decoration: solid;
+}
+.bod {
+  background-color: palegoldenrod;
+}
+body {
+  max-width: 350;
+  width: 350px;
+  max-height: 400px;
+  height: 400px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 10px;
+  font-size: medium;
+  border-radius: 10px;
+  margin: 0;
+}
+
+li.active {
+  border: 2px solid#000;
+  margin-right: 5px;
+}
+
+p {
+  cursor: pointer;
+}
+
+#saveButton {
+  display: block;
+  margin: 10px auto;
+}
+
+#savedTabsSection {
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Additional styles for saved tabs section */
+#savedTabsSection h3 {
+  margin: 10px 0;
+}
+
+#dateSelect {
+  margin: 10px 0;
+}
+
+#retrieveButton {
+  margin-bottom: 10px;
+}
+
+#savedTabsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.newButton {
+  border-right: solid 1px rgba(0, 0, 0, 0.1) !important;
+  background-size: 16px;
+  background-color: whitesmoke;
+}
+
+.newBorderStyle {
+  border-style: double;
+}
